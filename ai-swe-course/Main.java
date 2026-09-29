@@ -6,8 +6,10 @@ public class Main {
        
         int sum = addNumbers(5, 10);
         System.out.println("Sum: " + sum);
+
     }
 
-
+    private static int addNumbers(int first, int second) {
+        return first + second;
     }
 }
